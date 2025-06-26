@@ -3,8 +3,10 @@ import Desenhos from "../../data/desenhos.js";
 const SideScroll = () => {
     const circuloDesenhos = Desenhos.map((desenho, index) => {
 
+        const backgroundClass = desenho.cor === "orange-600" ? "bg-orange-600" : "bg-purple-900";
+
         return (
-            <div key={index} className={`w-16 h-16 rounded-full bg-${desenho.cor} flex flex-col items-center justify-center m-4 shadow-md shadow-black/70`} >
+            <div key={index} className={`w-16 h-16 rounded-full ${backgroundClass} flex flex-col items-center justify-center m-4 shadow-md shadow-black/70`} >
                 <img src={desenho.imagem} className="h-9 w-10" />
             </div>
         );
