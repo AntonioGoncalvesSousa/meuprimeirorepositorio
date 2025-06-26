@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://antoniogoncalvessousa.github.io/SunfflyCrew/",
+  "homepage": "https://antoniogoncalvessousa.github.io/meuprimeirorepositorio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
